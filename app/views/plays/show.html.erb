@@ -1,6 +1,7 @@
 <h1> This is a show page </h1>
 <h2><%= @play.title %></h2>
 <h3><%= @play.director %></h3>
+<h4><%= @play.category.name %></h4>
 <h5><%= @play.description %></h5>
 
 <% if user_signed_in? %>
